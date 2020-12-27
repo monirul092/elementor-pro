@@ -18,6 +18,16 @@ if ( ! is_multisite() ) {
 	die();
 }
 
+
+
+
+
+
+
+
+
+
+
 $valid_error_codes = array( 'already_active', 'blog_taken' );
 
 list( $activate_path ) = explode( '?', wp_unslash( $_SERVER['REQUEST_URI'] ) );
